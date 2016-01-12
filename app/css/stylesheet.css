@@ -1,0 +1,27 @@
+.row {
+	max-width: 100%;
+}
+
+.tab-bar {
+	position: fixed;
+}
+
+.main-section {
+	padding-top: 50px;
+}
+
+.jokes {
+	background: green;
+	margin-bottom: 5px;
+}
+
+.jokes p {
+	padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+
+footer {
+	background: #000;
+	text-align: center;
+}
