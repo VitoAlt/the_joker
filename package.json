@@ -1,0 +1,28 @@
+{
+  "name": "the_joker",
+  "version": "1.0.0",
+  "description": "Joke app - School project",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify": "0.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maggelino/the_joker.git"
+  },
+  "author": "Kenneth, Vito and Mariann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maggelino/the_joker/issues"
+  },
+  "homepage": "https://github.com/Maggelino/the_joker#readme"
+}
