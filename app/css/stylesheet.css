@@ -2,9 +2,19 @@
 	max-width: 100%;
 }
 
+
+/* HEADER */
+
 .tab-bar {
 	position: fixed;
 }
+
+.left-small {
+	border: none;
+}
+
+
+/* MAIN SECTION - STARTPAGE */
 
 .main-section {
 	padding-top: 50px;
@@ -21,7 +31,23 @@
     padding-top: 20px;
 }
 
+
+/* MAIN SECTION - ADD JOKE */
+.add-joke-btn {
+	text-align: center;
+}
+
+.add-joke-txt, .add-joke-name {
+	padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* FOOTER */
+
 footer {
 	background: #000;
 	text-align: center;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
 }

@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Joker | Add joke</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+ <div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <nav class="tab-bar fixed">
+      <section class="left-small">
+        <a class="" href="index.html"><i class="fi-arrow-left"></i></a>
+      </section>
+      <section class="middle tab-bar-section">
+        <h1 class="title">The Joker</h1>
+      </section>
+    </nav>
+
+    <section class="main-section">
+    <div class="row">
+        <form>
+          <div class="columns small-12 add-joke-name">
+            <input type="name" placeholder="Your name" />
+          </div>
+          <div class="columns small-12 add-joke-txt">
+            <textarea rows="4" cols="50" placeholder="Write your joke here!"></textarea>
+          </div>
+          <div class="columns small-12 add-joke-btn">
+            <button>Post!</button>
+          </div>
+        </form>
+    </div>
+    </section>
+
+  <a class="exit-off-canvas"></a>
+
+    <script src="scripts/firebase.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
